@@ -1,0 +1,10 @@
+{
+	"apps": [{
+		"name": "server",
+		"script": "./node_modules/ts-node/dist/bin.js",
+		"watch": "./src",
+		"ignore_watch": "./node_modules",
+		"args": "./server.ts",
+		"node_args": "--inspect"
+	}]
+}
